@@ -1,0 +1,84 @@
+## MiniQuiz: SOAP Quiz
+
+
+### Question 1: 
+#### An Advantage that SOAP has above REST
+1. Closer to other web technologies in design philosophy
+2. It's the faster means of retreiving data
+3. No expensive tools require to interact with the web service
+4. [x] Works well in distributed enterprise environments (REST assumes direct point-to-point communication)
+
+### Question 2: 
+#### Which organization originally developed the SOAP protocol?
+1. Oracle
+2. [x] Microsoft
+3. W3C
+4. Mozilla
+
+### Question 3: 
+#### What is one reason SOAP is highly extensible?
+1. [x] You only use pieces of the services that you need
+2. SOAP only uses XML to pass around data.
+3. Built in Error Handling
+4. Ability to use HTTP protocol
+
+### Question 4: 
+#### contract between you (the provider of the service) and every single one of your customers (consumers of the service?
+1. HTTP
+2. SMTP
+3. [x] WSDL
+4. REST
+
+### Question 5: 
+#### What is one feature that SOAP has that allows it to be more flexible than REST?
+1. Can retreive and manipulate data from a remote server
+2. It's able to send data as an xml document
+3. [x] It is language, platform, and transport independent
+4. Has a small learning curve
+
+
+
+## MiniQuiz: REST Quiz
+
+
+### Question 1: 
+#### What's the standard method of retreiving data with REST?
+1. Retreiving the WDSL from the UDDI and utilizing that to send and receive data
+2. Defining data types in the header of the xml document
+3. Making a call to the server, specifying its controller and action methods
+4. [x] Specifying resources in the URI and how to retreive/manipulate that data via HTTP methods
+
+### Question 2: 
+#### What's an advantage REST has above soap
+1. Provides significant pre-built extensibility
+2. [x] It's lightweight and fast
+3. Automation when used with certain language products
+4. Built-in error handling
+
+### Question 3: 
+#### What is a resource?
+1. [x] The specified data that is expected to be returned form a request
+2. The layer that seperates data from the view
+3. The context used to communicate with the database
+4. The document that defines what a service does and how to communicate with it
+
+### Question 4: 
+#### How does a typical URI look like when you want to fetch a user?
+1. /GetAllUsers
+2. /Users/Find/1
+3. [x] /users/1
+4. /users/1/user
+
+### Question 5: 
+#### What makes REST independnt
+1. Only needs a WSDL to specify services
+2. It's lightweight and fast
+3. [x] Requires the use of HTTP
+4. Has a small learning curve
+
+
+## Essay
+
+Soap is a messaging protocol specification that processes the retrieving and manipulating of data through the uses of web services from remote servers. Its designed to have extensibility, neutrality, and verbosity. It uses XML to relay information to-from server and client, and relies on application layer protocols. Upon every operation executed from the service it gives details on it's functionality, along with the XML's request and response schema that contains information for the action performed. When input is given it, the input is similarly specified and bound to a certain types like integers, doubles, strings or even complex objectsprovided from the service. The information received from the service is then parsed in the WSDL (  Web Service Description (or Definition as it was called in later versions)) Language. Most times the WSDL is defined to provide a type of contract to and from  the provider and the consumer of the service. In terms of designing this system, the WSDL can be thought of as a method signature for the remote service itself.  A bonus that SOAP includes is that it works well in various enterprise environments, it provides significant pre-built extensibility using its WS* standards and giving greater functionality for certain languages.  There's often a bit of a mixup regarding the WSDL as a requirement for a SOAP service.  It's normally used to define every aspect of the SOAP message, but it's not required for SOAP to function. It has a great range of defining it's data such as being able to define whether any element or attribute is allowed to appear multiple times, if it is required or optional, and can even dictate a specific order the elements must appear in.
+
+Representational state transfer (REST) is a standardized method that elaborates on how a set of constraints are used for distributing resources from various services. Web services use REST use an architectural style, called RESTful Web services, which provide interoperability between computer systems connected on an open network. RESTful services allow clients to access and manipulate data as resources by using a uniform and predefined set of stateless methods. SOAP is another form of Web service that  expose it's own arbitrary sets of operations to a system.  Rest is often considered a more approachable method on using Web services to opposed to SOAP's.  An example that specifies this is that REST uses easy to understand standards like swagger and OpenAPI, it has a small learning curve, it's lightweight, efficient and fast and it's closer to the design and methodologies of implementing web technologies. REST's basic REST HTTP requests are: POST, GET, PUT, and DELETE.  By having a stateless protocol and standard operations, RESTful systems aim for fast performance, reliability, and the ability to grow by reusing components that can be managed and updated without affecting the system as a whole, even while it is running.  Unlike SOAP, REST doesn’t isn't just limited to data formats like XML to provide the response. You can find REST-based web services that output the data in other forms such as a  Command Separated Value format or CVS file, JavaScript Object Notation (JSON) and Really Simple Syndication (RSS). The point is you can obtain the output you need, in a form that’s easy to parse within the language you’re using for your application.
