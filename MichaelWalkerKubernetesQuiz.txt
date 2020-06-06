@@ -1,0 +1,59 @@
+## MiniQuiz: SOAP Quiz
+
+
+### Question 1: 
+#### https://kubernetes.io/docs/concepts/overview/components/#dns
+#### What is Cluster DNS?
+1. A network proxy that runs on each node
+2. Web server for making api calls
+3. The host for the kubernetes service
+4. [x] a DNS server which serves DNS records for Kubernetes services.
+
+### Question 2: 
+#### https://kubernetes.io/docs/concepts/services-networking/ingress/#simple-fanout
+#### What is the Simple Fanout type of Ingress used for?
+1. Autoscales the API groups which automatically scales the number of pods in a replication controller
+2. [x] Routing traffic from a single IP address to more than one Service
+3. To dynamically drive the cluster back to the predetermined desired state
+4. The recommended way to manage the creation and scaling of Pods
+
+### Question 3: 
+#### https://kubernetes.io/docs/tutorials/hello-minikube/#create-a-deployment
+#### What is the kubectl command to make a new deployment?
+1. [x] `kubectl create`
+2. `minikube dashboard`
+3. `kubectl get`
+4. `kubectl config`
+
+### Question 4: 
+#### https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
+#### How does the autoscaler work in kubernetes
+1. It specifies the operation to perform on one or more resources
+2. [x] It is implemented as a control loop, with a period controlled by the controller manager’s `--horizontal-pod-autoscaler-sync-period` flag
+3. It maintains a stable set of replica Pods running at any given time.
+4. REST
+
+### Question 5: 
+#### https://kubernetes.io/docs/concepts/overview/components/#web-ui-dashboard
+#### What is the kubernetes Web UI Dashboard used for?
+1. To run on every node, maintaining running pods and providing the Kubernetes runtime environment.
+2. For creating, updating and deleting cloud provider load balancers
+3. [x]  It allows users to manage and troubleshoot applications running in the cluster, as well as the cluster itself.
+4. It's configured to give Services externally-reachable URLs, load balance traffic
+   
+### Question 6: 
+#### https://kubernetes.io/docs/concepts/overview/components/#web-ui-dashboard
+#### What is the kubectl Command for turning on addons?
+1. `kubectl addon-manager`
+2. `kubectl dashboard add addons`
+3. [x]  `kubectl addons enable`
+4. `kubectl expose addons`
+   
+### Question 7: 
+#### https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#deleting-a-replicaset-and-its-pods
+#### What kubectl command do you use to delete a ReplicaSet
+1. `kubectl convert`
+2. `kubectl diff`
+3. [x]  `kubectl delete`
+4. `kubectl drain`
+   
