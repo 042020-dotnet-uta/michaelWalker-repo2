@@ -42,12 +42,12 @@
 4. It's configured to give Services externally-reachable URLs, load balance traffic
    
 ### Question 6: 
-#### https://kubernetes.io/docs/concepts/overview/components/#web-ui-dashboard
-#### What is the kubectl Command for turning on addons?
-1. `kubectl addon-manager`
-2. `kubectl dashboard add addons`
-3. [x]  `kubectl addons enable`
-4. `kubectl expose addons`
+#### https://kubernetes.io/docs/tutorials/hello-minikube/#enable-addons
+#### What is the minikube Command for turning on addons?
+1. `minikube addon-manager`
+2. `minikube dashboard add addons`
+3. [x]  `minikube addons enable`
+4. `minikube expose addons`
    
 ### Question 7: 
 #### https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#deleting-a-replicaset-and-its-pods
